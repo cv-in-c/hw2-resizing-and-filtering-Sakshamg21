@@ -10,7 +10,7 @@ void l1_normalize(image im)
 {
     // TODO
     float sum = 0.0;
-
+ 
     // Compute the sum of all pixel values
     for (int i = 0; i < im.width * im.height * im.channels; i++) {
         sum += im.data[i];
